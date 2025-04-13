@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# 🎬 MovieLand
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**MovieLand** is a simple and responsive movie search web application built using **HTML, CSS, and JavaScript**, powered by the [OMDb API](https://www.omdbapi.com/). It allows users to search for movies and displays relevant results like title, poster, and release year.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- 🔎 Real-time movie search functionality
+- 🖼️ Movie posters, titles, and release year display
+- 📱 Fully responsive layout (works on mobile and desktop)
+- ⚡ Built using only vanilla JS, CSS, and HTML
+- 🌐 Uses the OMDb API for movie data
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+- OMDb API
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📂 Folder Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+movieland/
+├── public/
+│   └── index.html              
+├── src/
+│   ├── App.js                  # Main application component
+│   ├── MovieCard.jsx           # Reusable movie card component
+│   ├── index.js                # React entry point
+│   ├── search.svg              # Search icon for UI
+│   └── style.css               
+├── .gitignore
+├── package.json
+├── README.md
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🌐 Live Demo
+Coming soon — will add once deployed to GitHub Pages, Vercel, or Netlify.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🧠 About the Project
+This project is part of my learning path with React. The goal was to practice:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Working with APIs
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Managing component-based architecture
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Using props and hooks (useState, useEffect)
 
-## Learn More
+Creating a clean, responsive UI
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
