@@ -1,6 +1,6 @@
-# 🎬 MovieLand
+# 🎬 MovieLand using React.js
 
-**MovieLand** is a simple and responsive movie search web application built using **HTML, CSS, and JavaScript**, powered by the [OMDb API](https://www.omdbapi.com/). It allows users to search for movies and displays relevant results like title, poster, and release year.
+**MovieLand** is a simple and responsive movie search web application built using **HTML, CSS, JavaScript, and React.js**, powered by the [OMDb API](https://www.omdbapi.com/). It allows users to search for movies and displays relevant results like title, poster, and release year.
 
 ---
 
@@ -9,7 +9,7 @@
 - 🔎 Real-time movie search functionality
 - 🖼️ Movie posters, titles, and release year display
 - 📱 Fully responsive layout (works on mobile and desktop)
-- ⚡ Built using only vanilla JS, CSS, and HTML
+- ⚡ Built using only React.js
 - 🌐 Uses the OMDb API for movie data
 
 ---
@@ -19,6 +19,7 @@
 - HTML5
 - CSS3
 - JavaScript (Vanilla)
+- React.js
 - OMDb API
 
 ---
